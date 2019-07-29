@@ -14,7 +14,7 @@ import {
   IconButton
 } from '@material-ui/core'
 
-const CanBanBoardCard = ({ task, completeTask, deleteTask, props }) => {
+const KanBanBoardCard = ({ task, completeTask, deleteTask, props }) => {
   const classes = cardMaterialStyle()
   const [addUser, setIconAddUser] = useState(Boolean)
   const showUserIcon = () => {
@@ -105,4 +105,4 @@ const VertMenuOnCard = ({ deleteTask, completeTask, props }) => {
   )
 }
 
-export { CanBanBoardCard }
+export { KanBanBoardCard }

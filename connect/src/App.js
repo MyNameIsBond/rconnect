@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { grid } from './styles/materialStyle'
 import Grid from '@material-ui/core/Grid'
-import FormRow from './components/CanBanBoardCard/CanBoardGrid'
+import FormRow from './components/KanBanBoardCard/KanBoardGrid'
 export default function NestedGrid() {
   const classes = grid()
   return (

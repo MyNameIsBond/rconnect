@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Typography, Button } from '@material-ui/core'
 import { Add } from '@material-ui/icons'
 import Grid from '@material-ui/core/Grid'
-import { CanBanBoardCard } from './CanBoardCard'
+import { KanBanBoardCard } from './KanBoardCard'
 import { AddTaskCard } from './addTaskCard'
 import { grid } from '../../styles/materialStyle'
 
@@ -28,7 +28,7 @@ const FormRow = ({ title }) => {
   }
   const taskLoop = tasks.map((task, i) => (
     <Grid item xs={12}>
-      <CanBanBoardCard
+      <KanBanBoardCard
         props={{ id: i }}
         task={task}
         deleteTask={deleteTask}
